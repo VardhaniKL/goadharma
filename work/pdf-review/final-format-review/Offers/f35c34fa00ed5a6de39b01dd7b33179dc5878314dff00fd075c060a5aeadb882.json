@@ -1,0 +1,187 @@
+{
+  "id": "f35c34fa00ed5a6de39b01dd7b33179dc5878314dff00fd075c060a5aeadb882",
+  "groupId": "f35c34fa00ed5a6de39b01dd7b33179dc5878314dff00fd075c060a5aeadb882",
+  "version": 1,
+  "baseVersionId": null,
+  "createdAt": "2026-11-03T08:32:33.140Z",
+  "candidate": "Krishnapriya Murali",
+  "country": "Singapore",
+  "position": "Software Quality Automation Engineer",
+  "inputs": {
+    "offerDate": "2026-11-03",
+    "position": "Software Quality Automation Engineer",
+    "joiningDate": "2026-12-01",
+    "salary": "SGD 5,000",
+    "country": "Singapore",
+    "hrName": "Alex Cai",
+    "candidate": "Krishnapriya Murali",
+    "address": "Passport No (AW856366), B3, Athreyas Rajalaxmi Flats, 2nd Floor, Lakshmi Nagar",
+    "officeAddress": "No. 2 Venture Drive, #22-28 Vision Exchange, Singapore 608526",
+    "duties": "",
+    "probation": "",
+    "workingHours": "",
+    "payday": "",
+    "annualLeave": "",
+    "sickLeave": "",
+    "notice": "",
+    "benefits": "",
+    "outsideWork": "",
+    "tax": "",
+    "additionalTerms": ""
+  },
+  "pdfFile": "f35c34fa00ed5a6de39b01dd7b33179dc5878314dff00fd075c060a5aeadb882.pdf",
+  "jsonFile": "f35c34fa00ed5a6de39b01dd7b33179dc5878314dff00fd075c060a5aeadb882.json",
+  "pdfSha256": "40b0b7e802aba5c1402179e585e97b40408bf9fe328be1f151602d2373a19bff",
+  "generatedBy": "review@goadharma.com",
+  "legalReview": "Singapore MOM references are recorded; confirm coverage and role-specific statutory terms before issue.",
+  "governmentSources": [
+    {
+      "title": "MOM Key Employment Terms",
+      "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms"
+    },
+    {
+      "title": "MOM Hours of work, overtime and rest days",
+      "url": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days"
+    },
+    {
+      "title": "MOM Annual leave eligibility and entitlement",
+      "url": "https://www.mom.gov.sg/employment-practices/leave/annual-leave/eligibility-and-entitlement"
+    },
+    {
+      "title": "MOM Sick leave eligibility and entitlement",
+      "url": "https://www.mom.gov.sg/employment-practices/leave/sick-leave/eligibility-and-entitlement"
+    },
+    {
+      "title": "MOM Paying salary",
+      "url": "https://www.mom.gov.sg/employment-practices/salary/paying-salary"
+    }
+  ],
+  "content": {
+    "heading": "LETTER OF APPOINTMENT",
+    "version": 1,
+    "letterhead": {
+      "brand": "goadharma",
+      "officeAddress": "No. 2 Venture Drive, #22-28 Vision Exchange, Singapore 608526",
+      "website": "www.earlytraction.com"
+    },
+    "offerDate": "03 November 2026",
+    "recipient": {
+      "name": "Krishnapriya Murali",
+      "address": "Passport No (AW856366), B3, Athreyas Rajalaxmi Flats, 2nd Floor, Lakshmi Nagar"
+    },
+    "greeting": "Dear Krishnapriya Murali,",
+    "introduction": "We are pleased to offer you the position of “Software Quality Automation Engineer” upon the following terms and conditions.",
+    "sections": [
+      {
+        "heading": "1. DATE OF COMMENCEMENT",
+        "clauses": [
+          [
+            {
+              "text": "Your date of joining is "
+            },
+            {
+              "text": "01 December 2026",
+              "bold": true
+            },
+            {
+              "text": ". Any required work authorisation or visa must be obtained before you begin work."
+            }
+          ],
+          "Your probation period will be as agreed in writing. Confirmation will be based on your performance and communicated to you in writing."
+        ]
+      },
+      {
+        "heading": "2. SALARY",
+        "clauses": [
+          [
+            {
+              "text": "Your basic monthly salary will be "
+            },
+            {
+              "text": "SGD 5,000",
+              "bold": true
+            },
+            {
+              "text": " (all inclusive only of expressly stated components)."
+            }
+          ],
+          "You are responsible for personal income tax under the applicable laws.",
+          "No other allowances are included unless agreed in writing.",
+          "Salary will be paid in accordance with the applicable law and the Company’s stated payroll schedule.",
+          "Approved business travel and work-related expenses will be reimbursed under Company policy."
+        ]
+      },
+      {
+        "heading": "3. DUTIES",
+        "clauses": [
+          "You are required to perform duties reasonably assigned within the framework of your role and profile.",
+          "Your specific duties will be agreed with your manager."
+        ]
+      },
+      {
+        "heading": "4. OTHER WORK",
+        "clauses": [
+          "This is a full-time position. You are expected to devote your working time to the Company.",
+          "Obtain written approval before taking up other paid work or an advisory role that may conflict with your duties or the Company’s interests."
+        ]
+      },
+      {
+        "heading": "5. WORKING HOURS",
+        "clauses": [
+          "Your ordinary working arrangements are: as agreed with the Company in writing.",
+          "Work beyond ordinary hours will be managed and compensated where required by applicable law."
+        ]
+      },
+      {
+        "heading": "6. ANNUAL LEAVE",
+        "clauses": [
+          "Paid annual leave and public holidays will be provided in accordance with applicable law and Company policy.",
+          "Leave requests and any unpaid leave are subject to the applicable law and the Company’s leave procedures."
+        ]
+      },
+      {
+        "heading": "7. SICK LEAVE",
+        "clauses": [
+          "Notify the Company or your manager as soon as practicable if illness prevents you from working.",
+          "Paid sick leave will be provided in accordance with applicable law and required medical certification."
+        ]
+      },
+      {
+        "heading": "8. TERMINATION AND NOTICE",
+        "clauses": [
+          "Either party may terminate employment by giving the notice period agreed in writing. Salary in lieu may be paid where permitted by law.",
+          "The Company may take disciplinary action, including termination, for misconduct or a material breach, following applicable law.",
+          "On termination, you must return Company and client property and support an orderly handover."
+        ]
+      },
+      {
+        "heading": "9. CONFIDENTIALITY",
+        "clauses": [
+          "You must not disclose confidential Company or client information except as authorised or required by law.",
+          "Confidential information includes non-public trade, business, financial, client, personnel and technical information.",
+          "These obligations continue after employment for as long as the information remains confidential.",
+          "You must not copy, retain or destroy Company confidential information without written authorisation."
+        ]
+      },
+      {
+        "heading": "10. BENEFITS",
+        "clauses": [
+          "Medical and other benefits, if any, will be provided as described in the applicable Company policy.",
+          "Benefit eligibility, coverage and administration are subject to the applicable plan terms and Company policy."
+        ]
+      },
+      {
+        "heading": "11. GOVERNING LAW",
+        "clauses": [
+          "This letter and your employment are subject to the applicable employment laws of Singapore.",
+          "Any contractual term that provides less than a mandatory legal entitlement is subject to that entitlement."
+        ]
+      }
+    ],
+    "signatories": {
+      "company": "goadharma",
+      "humanResources": "Alex Cai",
+      "candidate": "Krishnapriya Murali"
+    }
+  }
+}

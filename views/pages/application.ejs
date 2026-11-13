@@ -1,0 +1,68 @@
+<%- include('../partials/head',{title}) %>
+<body>
+<%- include('../partials/header') %>
+<main class="application-page">
+    <section class="application-hero"><div class="wrap">
+        <a class="back-to-jobs" href="/careers#open-roles">&#8592; Back to open roles</a>
+        <div class="eyebrow"><i></i> CAREERS AT goadharma</div>
+        <h1>Apply for <span><%= job.title %>.</span></h1>
+        <div class="application-role-meta"><span>JOB ID <b><%= job.id %></b></span><span><%= job.location %></span><span><%= job.workMode %></span><span><%= job.experience %></span></div>
+        <% if (job.workNote) { %><p class="application-role-note"><%= job.workNote %></p><% } %>
+    </div></section>
+    <section class="section application-content"><div class="wrap application-layout">
+        <div class="application-intro">
+            <div class="eyebrow"><i></i> YOUR NEXT STEP</div>
+            <h2>Tell us a little about yourself.</h2>
+            <p><%= job.summary %></p>
+        </div>
+        <div>
+            <% if (!currentUser) { %>
+            <section class="application-auth" id="applicationAuth" data-google-client-id="<%= googleOAuthClientId %>">
+                <h2>Sign in to apply</h2>
+                <div class="application-auth-tabs" role="tablist" aria-label="Application account">
+                    <button class="active" id="showLogin" type="button" role="tab" aria-selected="true">Sign in</button>
+                    <button id="showSignup" type="button" role="tab" aria-selected="false">Create account</button>
+                </div>
+                <form class="application-auth-form" id="applicationLoginForm">
+                    <label>Username<input name="username" autocomplete="username" required maxlength="32"></label>
+                    <label>Password<input name="password" type="password" autocomplete="current-password" required maxlength="128"></label>
+                    <button class="btn primary" type="submit">Sign in</button>
+                    <button class="auth-text-button" id="showForgot" type="button">Forgot password?</button>
+                </form>
+                <form class="application-auth-form" id="applicationSignupForm" hidden>
+                    <label>Username<input name="username" autocomplete="username" required minlength="3" maxlength="32" pattern="[A-Za-z0-9][A-Za-z0-9._-]{2,31}"><small class="application-auth-hint">3–32 letters, numbers, periods, underscores, or hyphens.</small></label>
+                    <label>Email address<input name="email" type="email" autocomplete="email" required maxlength="254"></label>
+                    <label>Password<input name="password" type="password" autocomplete="new-password" required minlength="6" maxlength="128" pattern="(?=.*[0-9])(?=.*[^A-Za-z0-9\s]).{6,128}"><small class="application-auth-hint">At least 6 characters, including a number and a special character.</small></label>
+                    <label>Confirm password<input name="confirmPassword" type="password" autocomplete="new-password" required minlength="6" maxlength="128" pattern="(?=.*[0-9])(?=.*[^A-Za-z0-9\s]).{6,128}"></label>
+                    <button class="btn primary" type="submit">Create account</button>
+                </form>
+                <form class="application-auth-form" id="applicationForgotForm" hidden><label>Email address<input name="email" type="email" autocomplete="email" required maxlength="254"></label><button class="btn primary" type="button" id="sendResetCode">Send reset code</button><label>Reset code<input name="code" inputmode="numeric" autocomplete="one-time-code" pattern="[0-9]{6}" maxlength="6" required></label><label>New password<input name="password" type="password" autocomplete="new-password" minlength="6" maxlength="128" pattern="(?=.*[0-9])(?=.*[^A-Za-z0-9\s]).{6,128}" required></label><label>Confirm new password<input name="confirmPassword" type="password" autocomplete="new-password" minlength="6" maxlength="128" pattern="(?=.*[0-9])(?=.*[^A-Za-z0-9\s]).{6,128}" required></label><button class="btn primary" type="button" id="resetPasswordButton">Replace password</button><button class="auth-text-button" id="backToLogin" type="button">Back to sign in</button></form>
+                <div class="application-auth-divider"><span>or</span></div>
+                <div class="google-signin-wrap"><div id="googleSignInButton"><button type="button" class="google-signin-fallback"><span class="google-mark">G</span>Continue with Google</button></div></div>
+                <p class="application-auth-status" id="applicationAuthStatus" role="status" aria-live="polite"></p>
+            </section>
+            <% } else { %>
+            <div class="application-session-bar"><span>Signed in as <b><%= currentUser.email || currentUser.username %></b></span><button id="applicationSignOut" type="button">Sign out</button></div>
+            <% } %>
+            <form class="application-form" id="applicationForm" data-job-id="<%= job.id %>" <% if (!currentUser) { %>hidden<% } %>>
+                <h2>Application details</h2>
+                <label>Full name<input name="name" autocomplete="name" required maxlength="160" placeholder="Your name"></label>
+                <label>Phone number<input name="phone" type="tel" autocomplete="tel" required maxlength="40" placeholder="+1 555 012 3456"></label>
+                <div class="resume-field">
+                    <span class="resume-label">Resume</span>
+                    <input id="resumeFile" name="resume" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" required>
+                    <label class="resume-picker" for="resumeFile"><span class="resume-upload-icon">&#8593;</span><span><b>Choose resume from this device</b><small>PDF, DOC, or DOCX. Maximum 10 MB.</small></span></label>
+                    <p class="resume-filename" id="resumeFilename">No file selected</p>
+                    <p class="resume-error" id="resumeError" role="alert"></p>
+                </div>
+                <button class="btn primary application-submit" type="submit">Upload application <b>&#8599;</b></button>
+                <p class="application-status" id="applicationStatus" aria-live="polite"></p>
+            </form>
+        </div>
+    </div></section>
+</main>
+<% if (!currentUser && googleOAuthClientId) { %><script src="https://accounts.google.com/gsi/client" defer></script><% } %>
+<script src="/assets/js/application.js?v=20261031-application-auth-8" defer></script>
+<%- include('../partials/footer') %>
+
+

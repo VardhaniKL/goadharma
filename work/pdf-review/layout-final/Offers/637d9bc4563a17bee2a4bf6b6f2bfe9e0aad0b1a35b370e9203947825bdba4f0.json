@@ -1,0 +1,126 @@
+{
+  "id": "637d9bc4563a17bee2a4bf6b6f2bfe9e0aad0b1a35b370e9203947825bdba4f0",
+  "groupId": "637d9bc4563a17bee2a4bf6b6f2bfe9e0aad0b1a35b370e9203947825bdba4f0",
+  "version": 1,
+  "baseVersionId": null,
+  "createdAt": "2026-11-03T07:52:43.032Z",
+  "candidate": "Krishnapriya",
+  "country": "Singapore",
+  "position": "Software Quality Automation Engineer",
+  "inputs": {
+    "offerDate": "2026-09-14",
+    "position": "Software Quality Automation Engineer",
+    "joiningDate": "2027-01-11",
+    "salary": "S$ 2,562",
+    "country": "Singapore",
+    "hrName": "Alex Cai",
+    "candidate": "Krishnapriya",
+    "address": "Chennai",
+    "officeAddress": "No. 2 Venture Drive, #22-28 Vision Exchange\nSingapore 608526",
+    "duties": "",
+    "probation": "Three months",
+    "workingHours": "Monday to Friday, up to 44 hours per week, excluding meal breaks; breaks and rest days will follow applicable law.",
+    "payday": "Salary paid at least monthly, within 7 days after the end of the salary period.",
+    "annualLeave": "12 paid days in the first year, increasing by one day per completed year up to 14 days. Pro-rated as required, with at least the statutory entitlement.",
+    "sickLeave": "Paid outpatient and hospitalisation sick leave in accordance with statutory eligibility and entitlement.",
+    "notice": "One month",
+    "benefits": "Corporate medical insurance for outpatient and inpatient care; life insurance cover of SGD 50,000, subject to the applicable policy.",
+    "outsideWork": "You must obtain written management approval before taking up other paid work or an advisory role during your employment.",
+    "tax": "You are responsible for personal income tax under the laws that apply.",
+    "additionalTerms": ""
+  },
+  "pdfFile": "637d9bc4563a17bee2a4bf6b6f2bfe9e0aad0b1a35b370e9203947825bdba4f0.pdf",
+  "jsonFile": "637d9bc4563a17bee2a4bf6b6f2bfe9e0aad0b1a35b370e9203947825bdba4f0.json",
+  "pdfSha256": "e0c9189a366ca73648a22f7fab4224e09e531c5e66db8c51ecbd8d3008b2da3f",
+  "generatedBy": "admin@example.com",
+  "legalReview": "Singapore MOM references are recorded; confirm coverage and role-specific statutory terms before issue.",
+  "governmentSources": [
+    {
+      "title": "MOM Key Employment Terms",
+      "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms"
+    },
+    {
+      "title": "MOM Hours of work, overtime and rest days",
+      "url": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days"
+    },
+    {
+      "title": "MOM Annual leave eligibility and entitlement",
+      "url": "https://www.mom.gov.sg/employment-practices/leave/annual-leave/eligibility-and-entitlement"
+    },
+    {
+      "title": "MOM Sick leave eligibility and entitlement",
+      "url": "https://www.mom.gov.sg/employment-practices/leave/sick-leave/eligibility-and-entitlement"
+    },
+    {
+      "title": "MOM Paying salary",
+      "url": "https://www.mom.gov.sg/employment-practices/salary/paying-salary"
+    }
+  ],
+  "content": {
+    "heading": "LETTER OF APPOINTMENT",
+    "version": 1,
+    "letterhead": {
+      "brand": "goadharma",
+      "officeAddress": "No. 2 Venture Drive, #22-28 Vision Exchange\nSingapore 608526",
+      "website": "www.earlytraction.com"
+    },
+    "offerDate": "14 September 2026",
+    "recipient": {
+      "name": "Krishnapriya",
+      "address": "Chennai"
+    },
+    "greeting": "Dear Krishnapriya,",
+    "introduction": "We are pleased to offer you the position of “Software Quality Automation Engineer” upon the following terms and conditions.",
+    "sections": [
+      {
+        "heading": "1. DATE OF COMMENCEMENT",
+        "text": "1.1 Your date of joining is 11 January 2027. Any required work authorisation or visa must be obtained before you begin work.\n1.2 Your probation period will be Three months. Confirmation will be based on your performance and communicated to you in writing."
+      },
+      {
+        "heading": "2. SALARY",
+        "text": "2.1 Your basic monthly salary will be S$ 2,562 (all inclusive only of expressly stated components).\n2.2 You are responsible for personal income tax under the laws that apply.\n2.3 No other allowances are included unless agreed in writing. Approved business travel and work-related expenses will be reimbursed under Company policy.\n2.4 Salary payment timing: Salary paid at least monthly, within 7 days after the end of the salary period."
+      },
+      {
+        "heading": "3. DUTIES",
+        "text": "You are required to perform the duties set out below and other duties reasonably assigned within the framework of your profile.\nDuties will be agreed with your manager."
+      },
+      {
+        "heading": "4. OTHER WORK",
+        "text": "This is a full-time position. You are expected to devote your working time to the Company and must obtain written approval before taking up other paid work or an advisory role that may conflict with your duties or the Company’s interests.\nYou must obtain written management approval before taking up other paid work or an advisory role during your employment."
+      },
+      {
+        "heading": "5. WORKING HOURS",
+        "text": "Your ordinary working arrangements are: Monday to Friday, up to 44 hours per week, excluding meal breaks; breaks and rest days will follow applicable law. Work beyond ordinary hours will be managed and compensated where required by applicable law."
+      },
+      {
+        "heading": "6. ANNUAL LEAVE",
+        "text": "12 paid days in the first year, increasing by one day per completed year up to 14 days. Pro-rated as required, with at least the statutory entitlement."
+      },
+      {
+        "heading": "7. SICK LEAVE",
+        "text": "Paid outpatient and hospitalisation sick leave in accordance with statutory eligibility and entitlement."
+      },
+      {
+        "heading": "8. TERMINATION AND NOTICE",
+        "text": "Either party may terminate employment by giving One month. Salary in lieu may be paid where permitted by law. The Company may take disciplinary action, including termination, for misconduct or a material breach, following applicable law. On termination, you must return Company and client property and support an orderly handover."
+      },
+      {
+        "heading": "9. CONFIDENTIALITY",
+        "text": "You must not disclose confidential Company or client information except as authorised or required by law. These obligations continue after employment for as long as the information remains confidential. You must not copy, retain or destroy Company confidential information without written authorisation."
+      },
+      {
+        "heading": "10. BENEFITS",
+        "text": "Corporate medical insurance for outpatient and inpatient care; life insurance cover of SGD 50,000, subject to the applicable policy."
+      },
+      {
+        "heading": "11. GOVERNING LAW",
+        "text": "This letter and your employment are subject to the applicable employment laws of Singapore. Any contractual term that provides less than a mandatory legal entitlement is subject to that entitlement."
+      }
+    ],
+    "signatories": {
+      "company": "goadharma",
+      "humanResources": "Alex Cai",
+      "candidate": "Krishnapriya"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+<%- include('../partials/head',{title}) %>
+<body>
+<%- include('../partials/header') %>
+<main class="careers-page">
+    <section class="careers-hero">
+        <div class="wrap">
+            <div class="eyebrow"><i></i> CAREERS AT goadharma</div>
+            <h1>Bring your talent.<br>Build what moves <span>business.</span></h1>
+            <p class="careers-lede">Great technology takes every kind of talent. Explore opportunities across engineering, consulting, sales, marketing, people, finance, and operations.</p>
+            <a class="btn primary" href="#open-roles">Explore open roles &#8595;</a>
+        </div>
+    </section>
+    <section class="section careers-content" id="open-roles">
+        <div class="wrap">
+            <div class="careers-intro">
+                <div><div class="eyebrow"><i></i> FIND YOUR NEXT STEP</div><h2>Open roles.</h2></div>
+                <p>Search across our global team. Every role includes the work, experience, and strengths we are looking for. Questions? <a href="mailto:hr@goadharma.com">Contact our people team</a>.</p>
+            </div>
+            <form class="job-search" id="jobSearchForm" role="search" onsubmit="return false">
+                <label class="job-keyword">Search roles<input id="jobQuery" type="search" placeholder="Try 'marketing', 'cloud', or 'client'"></label>
+                <label>Function<select id="jobDepartment"><option value="">All functions</option><% [...new Set(jobs.map(job => job.department))].sort().forEach(department => { %><option value="<%= department %>"><%= department %></option><% }); %></select></label>
+                <label>Location<select id="jobLocation"><option value="">All locations</option><% [...new Set(jobs.map(job => job.location))].sort().forEach(location => { %><option value="<%= location %>"><%= location %></option><% }); %></select></label>
+                <div class="job-search-action"><span aria-hidden="true">Function</span><button class="job-clear" id="clearJobFilters" type="button">Clear filters</button></div>
+            </form>
+            <p class="job-results" id="jobResultCount" aria-live="polite"></p>
+            <div class="job-grid" id="jobGrid">
+                <% jobs.forEach(job => { const searchText = [job.title, job.department, job.location, job.workMode, job.workNote, job.summary, job.experience, ...job.responsibilities, ...job.requirements].join(' '); %>
+                <article class="job-card" data-search="<%= searchText %>" data-department="<%= job.department %>" data-location="<%= job.location %>">
+                    <div class="job-card-top"><span class="job-id">JOB ID <b><%= job.id %></b></span><span class="job-level"><%= job.level %></span></div>
+                    <h3><%= job.title %></h3>
+                    <p class="job-summary"><%= job.summary %></p>
+                    <div class="job-meta"><span><b>Function</b><%= job.department %></span><span><b>Location</b><%= job.location %></span><span><b>Work style</b><%= job.workMode %></span><span><b>Experience</b><%= job.experience %></span></div>
+                    <% if (job.workNote) { %><p class="job-note"><%= job.workNote %></p><% } %>
+                    <details class="job-details">
+                        <summary>Responsibilities &amp; requirements</summary>
+                        <div class="job-detail-columns">
+                            <div><h4>What you'll do</h4><ul><% job.responsibilities.forEach(item => { %><li><%= item %></li><% }); %></ul></div>
+                            <div><h4>What you'll bring</h4><ul><% job.requirements.forEach(item => { %><li><%= item %></li><% }); %></ul></div>
+                        </div>
+                    </details>
+                    <a class="btn primary job-apply" href="/careers/apply/<%= encodeURIComponent(job.id) %>">Apply now <b>&#8599;</b></a>
+                </article>
+                <% }); %>
+            </div>
+            <nav class="job-pagination" id="jobPagination" aria-label="Job result pages"></nav>
+            <div class="job-empty" id="jobEmpty" hidden><h3>No matching roles</h3><p>Try a different keyword, function, or location.</p></div>
+            <div class="careers-cta"><h2>Don't see the right role?</h2><p>Introduce yourself and tell us where you think you could make a difference.</p><a class="btn primary" href="mailto:hr@goadharma.com?subject=Open%20application%20-%20goadharma">Send an open application &#8599;</a></div>
+        </div>
+    </section>
+</main>
+<script src="/assets/js/careers.js" defer></script>
+<%- include('../partials/footer') %>

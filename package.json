@@ -1,0 +1,25 @@
+{
+  "name": "goadharma-ai-consulting",
+  "version": "7.1.22",
+  "private": true,
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "google-auth-library": "^11.3.2",
+    "helmet": "^8.0.0",
+    "multer": "^2.5.0",
+    "nodemailer": "^10.3.1",
+    "pdfkit": "^0.20.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}

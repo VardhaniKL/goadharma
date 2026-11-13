@@ -1,0 +1,126 @@
+{
+  "id": "af2a1b4f22a7d59e10757d5093411480d22b9680036456be388c4bd6a3f64270",
+  "groupId": "af2a1b4f22a7d59e10757d5093411480d22b9680036456be388c4bd6a3f64270",
+  "version": 1,
+  "baseVersionId": null,
+  "createdAt": "2026-11-03T07:55:24.787Z",
+  "candidate": "Goa Dharma",
+  "country": "Singapore",
+  "position": "Software Engineer",
+  "inputs": {
+    "offerDate": "2026-11-03",
+    "position": "Software Engineer",
+    "joiningDate": "2026-12-01",
+    "salary": "SGD 5,000",
+    "country": "Singapore",
+    "hrName": "Vinoth Kumar V",
+    "candidate": "Goa Dharma",
+    "address": "108 Potong Pasir Avenue 1, #14-492, Singapore 350108",
+    "officeAddress": "No. 2 Venture Drive, #22-28 Vision Exchange, Singapore 608526",
+    "duties": "",
+    "probation": "",
+    "workingHours": "",
+    "payday": "",
+    "annualLeave": "",
+    "sickLeave": "",
+    "notice": "",
+    "benefits": "",
+    "outsideWork": "",
+    "tax": "",
+    "additionalTerms": ""
+  },
+  "pdfFile": "af2a1b4f22a7d59e10757d5093411480d22b9680036456be388c4bd6a3f64270.pdf",
+  "jsonFile": "af2a1b4f22a7d59e10757d5093411480d22b9680036456be388c4bd6a3f64270.json",
+  "pdfSha256": "515999b8b505ec0c7c440dc890c3f88246ff47763d6591a622edb29a1217d939",
+  "generatedBy": "review@goadharma.com",
+  "legalReview": "Singapore MOM references are recorded; confirm coverage and role-specific statutory terms before issue.",
+  "governmentSources": [
+    {
+      "title": "MOM Key Employment Terms",
+      "url": "https://www.mom.gov.sg/employment-practices/contract-of-service/key-employment-terms"
+    },
+    {
+      "title": "MOM Hours of work, overtime and rest days",
+      "url": "https://www.mom.gov.sg/employment-practices/hours-of-work-overtime-and-rest-days"
+    },
+    {
+      "title": "MOM Annual leave eligibility and entitlement",
+      "url": "https://www.mom.gov.sg/employment-practices/leave/annual-leave/eligibility-and-entitlement"
+    },
+    {
+      "title": "MOM Sick leave eligibility and entitlement",
+      "url": "https://www.mom.gov.sg/employment-practices/leave/sick-leave/eligibility-and-entitlement"
+    },
+    {
+      "title": "MOM Paying salary",
+      "url": "https://www.mom.gov.sg/employment-practices/salary/paying-salary"
+    }
+  ],
+  "content": {
+    "heading": "LETTER OF APPOINTMENT",
+    "version": 1,
+    "letterhead": {
+      "brand": "goadharma",
+      "officeAddress": "No. 2 Venture Drive, #22-28 Vision Exchange, Singapore 608526",
+      "website": "www.earlytraction.com"
+    },
+    "offerDate": "03 November 2026",
+    "recipient": {
+      "name": "Goa Dharma",
+      "address": "108 Potong Pasir Avenue 1, #14-492, Singapore 350108"
+    },
+    "greeting": "Dear Goa Dharma,",
+    "introduction": "We are pleased to offer you the position of “Software Engineer” upon the following terms and conditions.",
+    "sections": [
+      {
+        "heading": "1. DATE OF COMMENCEMENT",
+        "text": "1.1 Your date of joining is 01 December 2026. Any required work authorisation or visa must be obtained before you begin work.\n1.2 Your probation period will be as agreed in writing. Confirmation will be based on your performance and communicated to you in writing."
+      },
+      {
+        "heading": "2. SALARY",
+        "text": "2.1 Your basic monthly salary will be SGD 5,000 (all inclusive only of expressly stated components).\n2.2 You are responsible for personal income tax under the applicable laws.\n2.3 No other allowances are included unless agreed in writing. Approved business travel and work-related expenses will be reimbursed under Company policy."
+      },
+      {
+        "heading": "3. DUTIES",
+        "text": "You are required to perform the duties set out below and other duties reasonably assigned within the framework of your profile.\nDuties will be agreed with your manager."
+      },
+      {
+        "heading": "4. OTHER WORK",
+        "text": "This is a full-time position. You are expected to devote your working time to the Company and must obtain written approval before taking up other paid work or an advisory role that may conflict with your duties or the Company’s interests."
+      },
+      {
+        "heading": "5. WORKING HOURS",
+        "text": "Your ordinary working arrangements are: as agreed with the Company in writing. Work beyond ordinary hours will be managed and compensated where required by applicable law."
+      },
+      {
+        "heading": "6. ANNUAL LEAVE",
+        "text": "Paid annual leave and public holidays will be provided in accordance with the applicable law and Company policy."
+      },
+      {
+        "heading": "7. SICK LEAVE",
+        "text": "Paid sick leave will be provided in accordance with applicable law and the required medical certification."
+      },
+      {
+        "heading": "8. TERMINATION AND NOTICE",
+        "text": "Either party may terminate employment by giving the notice period agreed in writing. Salary in lieu may be paid where permitted by law. The Company may take disciplinary action, including termination, for misconduct or a material breach, following applicable law. On termination, you must return Company and client property and support an orderly handover."
+      },
+      {
+        "heading": "9. CONFIDENTIALITY",
+        "text": "You must not disclose confidential Company or client information except as authorised or required by law. These obligations continue after employment for as long as the information remains confidential. You must not copy, retain or destroy Company confidential information without written authorisation."
+      },
+      {
+        "heading": "10. BENEFITS",
+        "text": "Medical and other benefits, if any, will be provided as described in the applicable Company policy."
+      },
+      {
+        "heading": "11. GOVERNING LAW",
+        "text": "This letter and your employment are subject to the applicable employment laws of Singapore. Any contractual term that provides less than a mandatory legal entitlement is subject to that entitlement."
+      }
+    ],
+    "signatories": {
+      "company": "goadharma",
+      "humanResources": "Vinoth Kumar V",
+      "candidate": "Goa Dharma"
+    }
+  }
+}
