@@ -263,15 +263,14 @@ form label{font-size:11px}form input,form select,form textarea{font-size:12px}fo
 @media(max-width:1020px){.footer-contacts{grid-template-columns:1fr}}
 
 
-.brand-lockup{display:block;width:330px;height:auto;max-height:58px;object-fit:contain;object-position:left center}
-.footer .brand-lockup{width:250px;max-height:43px}
-@media(max-width:1020px){.header .brand-lockup{width:min(275px,calc(100vw - 155px));max-height:48px}.footer .brand{grid-column:1/-1}.footer .brand-lockup{width:min(260px,calc(100vw - 60px));max-height:42px}}
+.brand-lockup{display:block;width:225px;height:auto;max-height:75px;object-fit:contain;object-position:left center}
+.footer .brand-lockup{width:250px;max-height:84px}
+@media(max-width:1020px){.header .brand-lockup{width:min(225px,calc(100vw - 155px));max-height:75px}.footer .brand{grid-column:1/-1}.footer .brand-lockup{width:min(250px,calc(100vw - 60px));max-height:84px}}
 
 .header nav{margin-left:auto;margin-right:0}.header-tools{margin-left:12px}@media(max-width:1020px){.header nav{margin:0}}
 
 .header nav .nav-contact{color:#7059d5;font-weight:700;text-shadow:0 0 12px #8e76e83d}.header nav .nav-contact:hover{color:#6046c4;text-shadow:0 0 13px #8e76e85c}
 
-.footer .brand-lockup-light{filter:brightness(0) invert(1)}
 
 /* Compact hero and neutral page zoom on phones and tablets */
 @media(max-width:1020px){body{zoom:1;width:100%;max-width:100%;margin:0}.hero{padding-top:30px}.hero h1{font-size:clamp(34px,8.8vw,46px);line-height:1.08;letter-spacing:-2.2px}.hero-copy{padding-bottom:0}.visual{height:285px}}

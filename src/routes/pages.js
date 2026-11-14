@@ -11,7 +11,7 @@ const countries=[
   {code:'us',name:'United States',region:'Americas',challenge:'State-by-state privacy rules, sector regulations, and a fragmented technology landscape can make a single rollout difficult.',response:'Map data and regulatory requirements by jurisdiction, then build modular solutions with configurable controls, clear auditability, and phased regional deployment.',team:'United States-based client and delivery teams'},
   {code:'ch',name:'Switzerland',region:'Europe',challenge:'Multilingual operations and strong expectations for privacy, data protection, and service reliability shape technology decisions.',response:'Design for language and regional needs, document data flows and hosting choices, and validate compliance requirements with qualified local advisers before implementation.',team:'Switzerland-based client and delivery team'}
 ];
-router.get('/',(req,res)=>res.render('pages/home',{title:'goadharma | From legacy to what is next'}));
+router.get('/',(req,res)=>res.render('pages/home',{title:'GOA DHARMA | From legacy to what is next'}));
 const jobs=require('../data/jobs');
 router.get('/careers/apply/:jobId',(req,res)=>{const job=jobs.find(item=>item.id===req.params.jobId);if(!job)return res.status(404).render('pages/error',{title:'Job listing not found | goadharma',code:'404'});res.render('pages/application',{title:'Apply: '+job.title+' | goadharma',job});});
 router.get('/careers/sign-in',(req,res)=>res.render('pages/sign-in',{title:'Sign in | goadharma',verified:req.query.verified==='1'}));
